@@ -1,5 +1,6 @@
 <?php
-
+$ico16 = "/img/favicon-16x16.png";
+$ico32 = "/img/favicon-32x32.png";
 ?>
 
 <!DOCTYPE html>
@@ -10,6 +11,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FORMULÁRIO | FATEC</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32"
+        href="<?=$ico32 ?>">
+    <link rel="icon" type="image/png" sizes="16x16"
+        href="<?=$ico16 ?>">
     <style>
         body {
             background-image: linear-gradient(#e9ecef, #ced4da);
